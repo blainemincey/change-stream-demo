@@ -26,7 +26,6 @@ change.
 __1. Identify an Atlas cluster__
 * Using a cluster you have already created in MongoDB Atlas or one that has
 already been created in any tier size will suffice for this proof.
-* xxxxx
 
 __2. Download/Clone the proof to a root or working directory__
 Within your root/working directory, you should have the following:
@@ -49,6 +48,7 @@ __3. Configure Environment Variables__
     * MONGODB_ATLAS_URL - The URL to your MongoDB Atlas cluster
 * Copy the Application Short SRV connection string for your Atlas cluster and paste it
 into your .env file in the MONGODB_ATLAS_URL variable
+
 !["SRV"](images/Copy_Srv_From_Atlas.png)
 
 Be sure to add your password to the URL.  For example:
